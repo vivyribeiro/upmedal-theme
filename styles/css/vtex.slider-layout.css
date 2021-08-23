@@ -1,0 +1,38 @@
+
+.imageElement{
+     
+    border-radius: 1rem;
+}
+
+.caretIcon{
+    color: white;
+}
+
+.caretIcon:hover{
+   color: #59ff00;
+}
+
+.slideTrackContainer{
+    
+    align-items: flex-end;
+}
+
+.sliderArrows{
+    width: 1.5rem;
+    margin: 0 7.5rem;
+    bottom: 0;
+}
+
+.sliderLayoutContainer{
+    margin-top: 1rem;
+    width: 100%; 
+    justify-self: center;
+    background-color: #303030;
+    padding-bottom: 2.187rem;
+}
+
+
+
+.paginationDotsContainer{
+    padding-bottom: .625rem;
+}

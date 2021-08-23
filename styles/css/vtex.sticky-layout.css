@@ -1,0 +1,10 @@
+.container,
+.container :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile){
+    background-color: #212121;
+}
+
+.container :global(.vtex-store-components-3-x-logoImage){
+    margin-left: -.5rem;
+    padding-right: 3.75rem;
+    
+}

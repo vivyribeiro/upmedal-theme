@@ -1,0 +1,38 @@
+
+.searchIcon,
+.closeIcon {
+    color: #fff;
+}
+
+.searchIcon:hover,
+.closeIcon:hover{
+    color: #59ff00;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border-style: none;
+    border-bottom: 1px #979899 solid;     
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group):hover {
+    border-bottom: 2px white solid;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group):active {
+    border-bottom: 2px #59ff00 solid;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+    background-color: #212121;
+}
+
+.searchBarContainer :global(.vtex-input__suffix){
+    background-color: #212121;
+    
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input){
+    color: #fff;
+}
+
+
+

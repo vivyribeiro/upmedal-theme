@@ -1,0 +1,22 @@
+.price {
+	color: #fff;
+	font-size: 2rem;
+}
+
+.deleteIcon {
+    color: #59ff00;
+    font-size: 1000px;
+    height: 3rem;
+}
+
+.removeButton {
+    width: 3rem;
+}
+
+
+.unitPriceContainer {
+   font-size: 1rem;
+}
+
+
+

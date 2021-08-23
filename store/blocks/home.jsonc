@@ -1,0 +1,81 @@
+{
+    "store.home": { 
+      "blocks": [
+        "list-context.image-list#demo", 
+        "search-result-layout.customQuery#home"
+      ]
+    },
+    "list-context.image-list#demo": {
+      "children": ["slider-layout#demo-images"],
+      "props": {
+        
+        "height": 570,
+        "preload": true,
+        "images": [
+          {
+            "image": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf",
+            "mobileImage": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf"
+          },
+          {
+            "image": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e",
+            "mobileImage": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e"
+          }
+        ]
+      }
+    },
+    "slider-layout#demo-images": {
+      "props": {
+        "fullWidth": false,
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "always",
+        "blockClass": "carousel"
+      }
+    },
+    "search-result-layout.customQuery#home":{
+      "props": {
+        "querySchema":{
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "skip"
+          
+        }	 		
+      },
+    
+      "blocks": [
+        "search-result-layout.desktop#lp",
+        "search-result-layout.mobile"
+      ]
+    },
+    "search-result-layout.desktop#lp":{
+      "children":[
+       "search-content#lp"
+      ],
+      "props":{
+        "preventRouteChange":true
+      }
+    },
+    "search-content#lp":{
+      "blocks":[
+        "gallery", "not-found"
+      ]
+    },
+    "search-result-layout.customQuery#": {
+      "props": {
+      "querySchema": {
+          "orderByField": "OrderByTopSaleDESC",
+          "hideUnavailableItems": true,
+          "maxItemsPerPage": 8,
+          "queryField": "20,28",
+          "mapField": "c,c"
+          }
+      },
+      "blocks": [
+      "search-result-layout.desktop",
+      "search-not-found-layout"
+      ]
+  }
+}   

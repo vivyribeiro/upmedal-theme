@@ -1,0 +1,27 @@
+.container--productsshelf {
+	background-color: #424242;
+	margin: 20px 20px;
+	height: auto;
+	box-shadow: 1px 1px 10px #212121;
+	padding: 0px;
+	min-height: 480px;
+}
+
+
+
+.imageContainer {
+	padding: 0px;
+}
+
+.image {
+	width: 100vw;
+	margin: 0px;
+}
+
+.nameContainer {
+	justify-content: center;
+}
+
+.brandName {
+	color: #fff;
+}
